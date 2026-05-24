@@ -5,14 +5,14 @@ import http from 'http';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-import PlayerManager from './managers/PlayerManager';
-import WorldManager from './managers/WorldManager';
-import CombatManager from './managers/CombatManager';
-import ItemManager from './managers/ItemManager';
+import PlayerManager from './managers/PlayerManager.js';
+import WorldManager from './managers/WorldManager.js';
+import CombatManager from './managers/CombatManager.js';
+import ItemManager from './managers/ItemManager.js';
 
-import * as playerHandlers from './handlers/playerHandlers';
-import * as combatHandlers from './handlers/combatHandlers';
-import * as worldHandlers from './handlers/worldHandlers';
+import * as playerHandlers from './handlers/playerHandlers.js';
+import * as combatHandlers from './handlers/combatHandlers.js';
+import * as worldHandlers from './handlers/worldHandlers.js';
 
 dotenv.config();
 
